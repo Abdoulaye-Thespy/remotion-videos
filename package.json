@@ -27,6 +27,7 @@
   "scripts": {
     "dev": "remotion studio",
     "build": "remotion bundle",
+    "render:services": "remotion render src/index.ts ServicesVideo out/services-video.mp4",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
   },
